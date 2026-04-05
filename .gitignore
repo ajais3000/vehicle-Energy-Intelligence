@@ -1,0 +1,41 @@
+# ── Virtual Environment ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Python Cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Trained Model Files (auto-generated on first launch) ─────────────────────
+models/
+
+# ── Raw Dataset (too large for GitHub) ───────────────────────────────────────
+*.csv
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS / IDE Junk ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ── Logs & Temp Files ─────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+
+# ── Streamlit Cache ───────────────────────────────────────────────────────────
+.streamlit/
+
+# ── Egg / Build Artifacts ─────────────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
